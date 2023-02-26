@@ -1,0 +1,53 @@
+nav {
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mytube {
+    margin-left: 4%;
+}
+
+.featured {
+    margin-left: 4%;
+}
+
+.pikachu {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.super-mario {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sonic {
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}

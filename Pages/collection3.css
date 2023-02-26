@@ -1,0 +1,49 @@
+nav {
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sonic-collection {
+    margin-left: 4%;
+}
+
+.sonic {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tails {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.knuckles {
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}

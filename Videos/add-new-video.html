@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="add-new-video.css">
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/pokemon">Pokemon</a>
+            <a href="/superMarioBros">Super Mario Bros.</a>
+            <a href="/Sonic">Sonic</a>
+            <a href="/newVideo">New Video</a>
+        </nav>
+
+        <header>
+            <h1 class="add-a-new-video">Add a New Video</h1>
+        </header>
+
+        <form class="form" action="/action_page.php" target="_target" method="get">
+            <label for="collectionVideoTitle"><strong>Collection Video Title</strong></label><br>
+            <input id="collectionVideoTitle" type="text" placeholder="Input Value" required>
+            <br><br>
+
+            <label for="videoDescription"><strong>Video Description</strong></label><br>
+            <textarea name="videoDescription" rows="8" cols="40" placeholder="Text area content" required></textarea>
+            <br><br>
+            <div><strong>Upload Video</strong></div>
+            <label for="chooseFile"></label><br>
+            <input type="file"><br>
+            <br>
+            <label for="collectionClass"></label>
+            <select id="collectionClass" name="collectionClass">
+            <option value="chooseCollection">Choose Collection</option>
+            <option value="pokemon">Pokemon</option>
+            <option value="superMarioBros">Super Mario Bros.</option>
+            <option value="sonic">Sonic</option>
+            </select>
+            <br><br>
+            <input name="visibility" id="public" type="radio">
+            <label for="public">Public</label>
+            <input name="visibility" id="private" type="radio">
+            <label for="private">Private</label><br>
+            <br><br>
+            
+            <button>Upload Video</button>
+    <!--   I want the input file type to be a button but i don't know how
+            <label for="uploadVideo"></label><br>
+            <input type="file" id="uploadVideo" name="uploadVideo"><br> -->
+        </form>
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>FOOTER</footer>
+</html>
